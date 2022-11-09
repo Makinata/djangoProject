@@ -5,4 +5,4 @@ import magic
 # Create your views here.
 
 def index(reqest, req):
-    return HttpResponse(f"я люблю {req}")
+    return HttpResponse(f"Результат:\n{magic.magic(req)}")
