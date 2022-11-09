@@ -4,5 +4,5 @@ import magic
 
 # Create your views here.
 
-def index(reqest, a, b):
-    return HttpResponse(f"{a} + {b} это {magic.magic(a, b)}")
+def index(reqest, req):
+    return HttpResponse(f"я люблю {req}")

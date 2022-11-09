@@ -1,2 +1,2 @@
-def magic(a,b):
-    return a+b
+def magic(req):
+    return req
