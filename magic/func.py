@@ -5,5 +5,4 @@ def magic(req):
     cur = conn.cursor()
     cur.execute(f"{req}")
     resp = cur.fetchall()
-
     return resp
