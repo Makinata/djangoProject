@@ -20,4 +20,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('func_app/', include('func_app.urls')),
     path('api/', include('api.urls')),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
